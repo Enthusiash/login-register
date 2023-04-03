@@ -12,7 +12,7 @@ import { HashLink as Link } from 'react-router-hash-link';
     }
 
     return (
-        <div className="auth-form-container">
+        <div className="auth-form-container1">
             <h2>REGISTER</h2>
         <form className="Register-form" onSubmit={handleSubmit}>
             <label>Full Name</label>
@@ -20,6 +20,8 @@ import { HashLink as Link } from 'react-router-hash-link';
             <label htmlFor="email">Email</label>
             <input value={email} onChange={(e) => setEmail(e.target.value)}type="email" placeholder="sample@gmail.com" id="email" name="email" />
             <label htmlFor="password">Password</label>
+            <input value={password} onChange={(e) => setPassword(e.target.value)}type="password" placeholder="********" name="password" />
+            <label htmlFor="password">Confirm Password</label>
             <input value={password} onChange={(e) => setPassword(e.target.value)}type="password" placeholder="********" name="password" />
             <button type="submit">Submit</button>
         </form>

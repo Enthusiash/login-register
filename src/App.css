@@ -4,7 +4,9 @@
   min-height: 100vh;
   align-items: center;
   justify-content: center;
-  background-color: rgb(161, 198, 255);
+  background-image: url("./images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
   .Register-form {
   padding: 0px;
@@ -22,6 +24,7 @@
   align-items: center;
   justify-content: center;
 
+
 }
 .auth-form-container {
   display: flex;
@@ -29,17 +32,34 @@
   margin: 0px;
   flex-direction: column;
   align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  width: 350px;
+  height: 350px;
+}
+.auth-form-container1 {
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  width: 400px;
+  height: 470px;
 }
 h2 {
   margin: 0px;
-  padding: 15px;
-  color: white;
+  padding: 25px;
+  color: rgb(0, 0, 0);
   font-size: 50px;
 }
 label {
   padding: 5px;
-  margin: 0px;
-  color: white;
+  margin: 5px;
+  color: rgb(0, 0, 0);
 }
 input {
   padding: 2px;
@@ -47,13 +67,16 @@ input {
 }
 button {
   padding: 5px;
-  margin: 5px;
-  color: black
+  margin: 10px;
+  color: black;
+  box-shadow: 0 4px 8px 0 rgba(223, 223, 253, 0.945), 0 4px 12px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 4px;
+  border-color: white;
 }
 .link-button {
  background-color: transparent;
  border: none;
- color: white;
+ color: rgb(0, 0, 0);
  text-decoration: underline;
  padding: 5px;
  margin: 0px;
